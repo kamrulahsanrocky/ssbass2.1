@@ -1,0 +1,586 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+.page-wrap {
+    margin: 0 auto;
+}
+
+
+/*main-header section starts */
+
+.main-header {
+    background-color: #121b2a;
+    min-height: 100px;
+    border-bottom: 1px solid black;
+    box-shadow: 0 0 20px 0;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 70%;
+    overflow: hidden;
+}
+
+
+/* logo-section starts*/
+
+.logo-section {
+    float: left;
+    width: 30%;
+    text-align: center;
+}
+
+.main-logo {
+    float: left;
+    width: 30%;
+}
+
+
+/* logo-section ends*/
+
+
+/* login-section starts*/
+
+
+/* login */
+
+.login-section {
+    cursor: pointer;
+    float: right;
+    height: 40px;
+    width: 400px;
+    background-color: white;
+}
+
+.left-login {
+    position: relative;
+    color: #121b2a;
+    float: left;
+    text-transform: uppercase;
+    -webkit-align-content: center;
+    align-content: center;
+    height: 100%;
+    width: 50%;
+    background-color: white;
+}
+
+.button-login {
+    position: absolute;
+    width: 131px;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    color: black;
+}
+
+.client-login p {
+    color: black;
+}
+
+.emoloyee-login p {
+    color: black;
+    width: 151px;
+}
+
+.right-login {
+    position: relative;
+    color: #121b2a;
+    float: right;
+    text-transform: uppercase;
+    -webkit-align-content: center;
+    align-content: center;
+    height: 100%;
+    width: 50%;
+    background-color: #0078bd;
+    color: white;
+}
+
+a {
+    color: white;
+    transition: all 1s ease;
+}
+
+a:hover {
+    color: #0078bd;
+}
+
+
+/* login */
+
+
+/* login-section ends*/
+
+
+/* nav-section starts*/
+
+.nav-section {
+    float: right;
+}
+
+.nav-section img {
+    padding: 0;
+}
+
+.nav-section ul {
+    clear: both;
+    list-style: none;
+    margin: 0;
+    overflow: hidden;
+    padding-left: 177px;
+}
+
+.nav-section ul li {
+    float: left;
+    padding-right: 40px;
+}
+
+.nav-section ul li:last-child {
+    padding-right: 0px;
+}
+
+.nav-section ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: monospace;
+    transition: color 0.5s ease;
+}
+
+.nav-section ul li a:hover {
+    color: #0078bd;
+}
+
+
+/* nav-section ends*/
+
+
+/* main-header section ends*/
+
+
+/*slider-section section starts*/
+
+.slider-section {
+    background-image: url(../images/main_body.jpg);
+    min-height: 550px;
+    background-position: center;
+    background-size: cover;
+}
+
+
+/*text div starts*/
+
+.text {
+    padding-top: 200px;
+    width: 615px;
+}
+
+.text h3 {
+    font-size: 40px;
+    color: aliceblue;
+}
+
+.text h1 {
+    padding-top: 5px;
+    color: #0078bd;
+}
+
+.text p {
+    padding-top: 10px;
+    color: aliceblue;
+    font-size: 18px;
+}
+
+.text button {
+    background: #ffffff;
+    padding: 0px 30px;
+    font-size: 20px;
+    border: 2px solid #121b2a;
+    margin-top: 40px;
+    border-radius: 5px;
+    width: 200px;
+    height: 60px;
+    font-weight: bold;
+    color: #121b2a;
+    cursor: pointer;
+    transition: all 1s ease;
+}
+
+.text button:hover {
+    background-color: #0078bd;
+    color: aliceblue;
+}
+
+
+/*text div ends*/
+
+
+/*slider-section section ends*/
+
+
+/*service_arrea starts */
+
+.service-area {
+    overflow: hidden;
+    min-height: 300px;
+    background-color: #121b2c;
+    color: white;
+    width: 100%;
+}
+
+
+/*service section starts*/
+
+.service-section-wrap {
+    overflow: hidden;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.service-section {
+    padding-left: 20px;
+    float: left;
+    width: 29%;
+    border-right: 1px solid #1d263f;
+    padding-right: 20px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.service-section:last-child {
+    border-right: none;
+}
+
+.service-section:first-child {
+    margin-left: 0px;
+}
+
+
+/*se starts*/
+
+.se {
+    min-height: 75px;
+    overflow: hidden;
+}
+
+
+/*logo-section starts*/
+
+.service-area .logo-section {
+    float: left;
+    width: 20%;
+}
+
+.service-area .logo-section img {
+    height: 71px;
+    width: 71px;
+}
+
+
+/*logo-section ends*/
+
+
+/*service-logo-title starts*/
+
+.service-logo-title {
+    float: right;
+    width: 70%;
+    padding-right: 20px;
+}
+
+.service-logo-title .p_one p {
+    color: aliceblue;
+    font-size: 20px;
+}
+
+.service-logo-title .p_two p {
+    padding-top: 5px;
+    color: #0078bd;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+/*service-logo-title ends*/
+
+
+/*se ends */
+
+
+/*content-section starts*/
+
+.content-section {
+    padding-top: 20px;
+}
+
+.content-section p {
+    text-align: left;
+}
+
+
+/*content-section ends*/
+
+
+/*service-section ends*/
+
+
+/*service-area ends*/
+
+
+/*testimonial_area starts*/
+
+.author-section {
+    padding-left: 20px;
+}
+
+.author-section .author-name {
+    font-weight: bold;
+}
+
+.testimonial-title {
+    font-size: 17px;
+}
+
+.testimonial_area {
+    background-color: #040811;
+    overflow: hidden;
+    min-height: 300px;
+    color: white;
+    width: 100%;
+}
+
+
+/*testimonial section starts*/
+
+.testimonial-section-wrap {
+    overflow: hidden;
+    margin-top: 60px;
+}
+
+.testimonial-section {
+    float: left;
+    width: 20%;
+    padding-right: 139px;
+}
+
+.testimonial-section:last-child {
+    padding-right: 0px;
+    padding-left: 100px;
+}
+
+.testimonial-section:nth-child(2) {
+    padding-left: 40px;
+    padding-right: 119px;
+}
+
+.testimonial-section:first-child {
+    width: 212px;
+}
+
+.testimonial-section:first-child .contact-title {
+    overflow: hidden;
+}
+
+.testimonial-section .contact-title p {
+    font-size: 17px;
+}
+
+.testimonial-section .contact-title span {
+    padding-left: 5px;
+    font-weight: bold;
+    color: #0078bd;
+}
+
+.testimonial-section:first-child .address {
+    padding-top: 20px;
+}
+
+.testimonial-section:first-child .digital_address {
+    padding-top: 20px;
+    font-size: 12px;
+}
+
+.testimonial-section:first-child .contact-title p {
+    font-size: 18px;
+}
+
+.testimonial-section:nth-child(2) p {
+    text-align: left;
+}
+
+.testimonial-section:nth-child(2) contact-title p {
+    font-size: 20px;
+    width: 212px;
+    max-width: 212px;
+}
+
+#testimonial {
+    font-size: 12px;
+    padding-top: 10px;
+}
+
+.testimonial-section:nth-child(2) .address {
+    padding-top: 10px;
+}
+
+.testimonial-section:nth-child(2) .address p {
+    font-size: 12px;
+}
+
+.testimonial-section:nth-child(2) .contact-title {
+    background-color: #0c1019;
+    padding: 22px;
+    width: 250px;
+}
+
+.testimonial-section:last-child .iphone_logo {
+    float: left;
+}
+
+.testimonial-section:last-child #span {
+    padding-left: 0px;
+    padding-top: 5px;
+}
+
+.testimonial-section:last-child .contact-title {
+    padding-left: 132px;
+}
+
+.testimonial-section:last-child .address {
+    padding-top: 10px;
+    padding-left: 132px;
+}
+
+.testimonial-section:last-child .contact-title {
+    font-weight: bold;
+}
+
+
+/*testimonial-section ends*/
+
+
+/*testimonial_area ends*/
+
+
+/*footer starts*/
+
+.footer {
+    background-color: #121b2c;
+    min-height: 100px;
+    color: aliceblue;
+}
+
+
+/*footer-section starts*/
+
+.footer-section {
+    padding-top: 30px;
+}
+
+
+/*footer-navigation starts*/
+
+.footer-navigation {
+    float: left;
+    width: 60%;
+}
+
+
+/*bottom-nav starts*/
+
+.bottom-nav ul {
+    list-style: none;
+    margin: 0;
+}
+
+.bottom-nav ul li {
+    float: left;
+    padding-right: 15px;
+    border-right: 1px solid aliceblue;
+    padding-left: 15px;
+}
+
+.bottom-nav ul li:first-child {
+    padding-left: 0px;
+}
+
+.bottom-nav ul li:last-child {
+    border-right: none;
+}
+
+.bottom-nav ul li a {
+    color: aliceblue;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.bottom-nav ul li a:hover {
+    color: #0078bd;
+}
+
+
+/*bottom-nav ends*/
+
+
+/*copyright-area starts*/
+
+.copyright-area {
+    clear: both;
+    padding-top: 16px;
+    font-size: 13x;
+}
+
+
+/*copyright-area ends*/
+
+
+/*footer-navigation ends*/
+
+
+/*footer-section #logo-section starts*/
+
+.footer-section #logo-section {
+    width: 30%;
+    float: right;
+}
+
+.footer-section #logo-section img {
+    padding-left: 60px;
+}
+
+
+/*footer-section #logo-section ends*/
+
+
+/*footer-section ends*/
+
+
+/*footer ends */
+
+.icon {
+    font-size: 71px;
+}
+
+.nav-bar {
+    clear: both;
+    padding-top: 30px;
+}
+
+.employee-login {
+    width: 160px;
+    color: white;
+}
+
+.fa-wifi {
+    font-size: 60px;
+}
+
+.service-wrapper {
+    padding-left: 50px;
+}
