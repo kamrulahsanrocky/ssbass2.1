@@ -243,6 +243,8 @@ a:hover {
 }
 
 .service-section {
+    cursor: pointer;
+    background-color: #00000069;
     padding-left: 20px;
     float: left;
     width: 29%;
@@ -250,6 +252,11 @@ a:hover {
     padding-right: 20px;
     padding-top: 60px;
     padding-bottom: 60px;
+    transition: all 1s ease;
+}
+
+.service-section:hover {
+    background-color: #0000001c;
 }
 
 .service-section:last-child {
