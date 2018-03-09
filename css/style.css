@@ -154,7 +154,7 @@ a:hover {
 }
 
 .nav-section ul li a:hover {
-    color: #0078bd;
+    color: aquamarine;
 }
 
 
@@ -195,6 +195,7 @@ a:hover {
     padding-top: 10px;
     color: aliceblue;
     font-size: 18px;
+    width: 500px;
 }
 
 .text button {
@@ -606,4 +607,9 @@ a:hover {
 
 .special-wrapper {
     overflow: visible;
+}
+
+.main-logo img{
+    -webkit-filter: invert(100%); /* Safari */
+    filter: invert(100%);
 }
