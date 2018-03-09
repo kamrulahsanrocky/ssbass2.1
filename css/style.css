@@ -6,6 +6,7 @@
 
 .page-wrap {
     margin: 0 auto;
+    background-color: aquamarine;
 }
 
 
@@ -226,18 +227,17 @@ a:hover {
 /*service_arrea starts */
 
 .service-area {
-    overflow: hidden;
     min-height: 300px;
     background-color: #121b2c;
     color: white;
     width: 100%;
+    margin-bottom: 10px;
 }
 
 
 /*service section starts*/
 
 .service-section-wrap {
-    overflow: hidden;
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -251,20 +251,32 @@ a:hover {
     border-right: 1px solid #1d263f;
     padding-right: 20px;
     padding-top: 60px;
-    padding-bottom: 60px;
+    padding-bottom: 40px;
     transition: all 1s ease;
+    position: relative;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1);
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1);
+    transition: all 200ms ease-in;
+    transform: scale(1);
 }
 
 .service-section:hover {
-    background-color: #0000001c;
-}
-
-.service-section:last-child {
-    border-right: none;
-}
-
-.service-section:first-child {
-    margin-left: 0px;
+    background-color: black;
+    box-shadow: 0px 0px 150px #000000;
+    z-index: 2;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.5);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.5);
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.5);
+    transition: all 200ms ease-in;
+    transform: scale(1.5);
+    border: 1px solid white;
 }
 
 
@@ -272,7 +284,7 @@ a:hover {
 
 .se {
     min-height: 75px;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 
@@ -590,4 +602,8 @@ a:hover {
 
 .service-wrapper {
     padding-left: 50px;
+}
+
+.special-wrapper {
+    overflow: visible;
 }
