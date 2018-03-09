@@ -609,7 +609,8 @@ a:hover {
     overflow: visible;
 }
 
-.main-logo img{
-    -webkit-filter: invert(100%); /* Safari */
+.main-logo img {
+    -webkit-filter: invert(100%);
+    /* Safari */
     filter: invert(100%);
 }
